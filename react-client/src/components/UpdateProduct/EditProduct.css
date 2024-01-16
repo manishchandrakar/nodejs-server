@@ -1,0 +1,71 @@
+/* EditProduct.css */
+
+.container {
+  width: 25%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Back to Home link style */
+button.back-to-home {
+  background-color: #2ecc71;
+}
+
+button.back-to-home:hover {
+  background-color: #27ae60;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3498db;
+}

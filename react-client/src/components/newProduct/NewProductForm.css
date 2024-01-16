@@ -1,0 +1,108 @@
+/* Styling for the form container */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styling for form inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styling for the checkbox */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Styling for the submit button */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* NewProductForm.css */
+
+/* Add your existing styles for form elements here */
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff; /* White background */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.popup-content p {
+  margin-bottom: 15px;
+}
+
+.popup-content a {
+  color: #3498db; /* Link color */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.popup-content a:hover {
+  color: #2980b9; /* Link color on hover */
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  .form-container {
+    padding: 15px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 12px;
+  }
+}

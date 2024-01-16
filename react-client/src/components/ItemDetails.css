@@ -1,0 +1,113 @@
+/* ItemDetails.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Apply a background pattern */
+body {
+  background-color: #f5f5f5;
+  background-image: linear-gradient(45deg, #eeeeee 25%, transparent 25%), linear-gradient(-45deg, #eeeeee 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #eeeeee 75%), linear-gradient(-45deg, transparent 75%, #eeeeee 75%);
+  background-size: 20px 20px;
+}
+
+/*/* ItemDetails.model.css */
+
+/* Container styles */
+
+.container1 {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.title {
+  color: #3498db;
+  text-align: center;
+}
+
+/* Product table styles */
+product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.edit-button, .delete-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.delete-button {
+  background-color: #f44336;
+  width: 100%;
+}
+
+.create-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3498db;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .product {
+    width: calc(100% - 20px);
+  }
+    .container1 {
+      width: 151%;
+    }
+  }
+
